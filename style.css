@@ -1,0 +1,202 @@
+/* ==========================GLOBAL============================*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0px;
+    background-color: #03031d;
+}
+
+img {
+    transition: 0.25s;
+}
+
+
+/* =============================img styling===========================*/
+
+.sImg {
+    max-width: 250%;
+    max-height: auto;
+}
+
+.element {
+    max-width: 350%;
+    max-height: auto;
+}
+
+
+/* =================================================================*/
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13vw;
+    width: 60%;
+    height: 100vh;
+}
+
+.boxInside {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+
+/* =================================================================*/
+
+.box2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 25vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box2:hover img {
+    background-color: black;
+    opacity: 60%;
+    transform: scale(1.2);
+}
+
+.box3 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 30vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box3:hover img {
+    background-color: black;
+    opacity: 60%;
+    transform: scale(1.2);
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 25vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box4:hover img {
+    background-color: black;
+    opacity: 60%;
+    transform: scale(1.2);
+}
+
+.Box4Inside {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.box5 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    gap: 0%;
+    position: relative;
+    width: 25vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.box5:hover img {
+    background-color: black;
+    opacity: 60%;
+    transform: scale(1.2);
+}
+
+.box6 {
+    background-color: black;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    gap: 0%;
+    position: relative;
+    width: 25vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.box6:hover img {
+    opacity: 60%;
+    background-color: black;
+    transform: scale(1.2);
+}
+
+
+/* ==============================logo==============================*/
+
+.MesilotLogo {
+    text-align: center;
+    align-items: center;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 300%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    width: 20vw;
+    height: fit-content;
+    position: static;
+}
+
+
+/* ==========================text style==============================*/
+
+#textDesign {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
+
+.boxTextDesign {
+    font-size: 100%;
+    color: aliceblue;
+    position: absolute;
+    top: 90%;
+    bottom: 0%;
+    font-weight: bolder;
+}
+
+#Quote {
+    align-items: center;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+#textDesign:hover {
+    opacity: 50%;
+}
+
+#textDesignBox {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
