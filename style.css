@@ -1,15 +1,29 @@
 /* ==========================GLOBAL============================*/
 
 body {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin: 0px;
     background-color: #03031d;
+    padding-top: 0%;
+}
+
+.bodyBox {
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
 
 img {
     transition: 0.25s;
+}
+
+.bodyStyleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0px;
 }
 
 
@@ -165,6 +179,11 @@ img {
 
 
 /* ==========================text style==============================*/
+
+#txtLarge {
+    font-size: 150%;
+    opacity: 10%;
+}
 
 #textDesign {
     font-family: 'Tiro Devanagari Hindi', serif;
