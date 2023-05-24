@@ -2,17 +2,39 @@
 
 body {
     background-color: #03031d;
-    padding-top: 0%;
+    padding: 0%;
+    margin: 0%;
 }
+
+img {
+    transition: 0.25s;
+}
+
+
+/* ==========================GlobalBoxes============================*/
 
 .bodyBox {
     display: flex;
     flex-direction: column;
     height: auto;
+    margin: 0%;
 }
 
-img {
-    transition: 0.25s;
+.bodyBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.bodyBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 10vh;
 }
 
 .bodyStyleContainer {
@@ -39,6 +61,11 @@ img {
     max-height: auto;
 }
 
+.cubeImg {
+    width: 440px;
+    height: 368px;
+}
+
 
 /* =================================================================*/
 
@@ -62,7 +89,6 @@ img {
 /* =================================================================*/
 
 .box2 {
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,7 +106,6 @@ img {
 }
 
 .box3 {
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -161,6 +186,43 @@ img {
     transform: scale(1.2);
 }
 
+.box7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 8vh;
+}
+
+.box8 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 0%;
+}
+
+.Box7Inside {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.infoBoxChild {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
 
 /* ==============================logo==============================*/
 
@@ -177,8 +239,25 @@ img {
     position: static;
 }
 
+.ImgMesilotBox {
+    padding-left: 50%;
+}
+
 
 /* ==========================text style==============================*/
+
+#header {
+    padding-left: 20px;
+    font-size: 50px;
+    color: red;
+}
+
+#textDesign2 {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+}
 
 #txtLarge {
     font-size: 150%;
@@ -202,6 +281,7 @@ img {
 }
 
 #Quote {
+    font-size: 20px;
     align-items: center;
     text-align: center;
     font-family: 'Fondamento', cursive;
@@ -218,4 +298,34 @@ img {
     font-size: 50px;
     text-decoration: none;
     color: white;
+}
+
+.LargeText {
+    padding-left: 30vw;
+    padding-right: 25vw;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 200px;
+    color: white;
+}
+
+.infoBoxHeader {
+    color: white;
+    font-size: 60px;
+    margin: 0%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 27px;
+}
+
+.infoBoxTxt {
+    text-align: left;
+    color: white;
+    font-size: 150%;
+    width: 500px;
+    height: auto;
+    margin: 0%;
+    padding-left: 27px;
 }
